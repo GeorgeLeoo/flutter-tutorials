@@ -1,0 +1,198 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+
+
+  --color-step-background: var(--color-fill-secondary);
+	--color-fill: #fff;
+	--color-fill-secondary: #fbfbfd;
+	--color-fill-tertiary: #f5f5f7;
+	--color-fill-quaternary: #252525;
+	--color-fill-blue: #0071e3;
+	--color-fill-blue-secondary: #f6fbff;
+	--color-fill-gray: #1d1d1f;
+	--color-fill-gray-secondary: #86868b;
+	--color-fill-gray-tertiary: #d2d2d7;
+	--color-fill-gray-quaternary: #e8e8ed;
+	--color-fill-green-secondary: #f5fff6;
+	--color-fill-light-blue-secondary: #eaf3ff;
+	--color-fill-light-gray-secondary: #f5f5f7;
+	--color-fill-orange-secondary: #fff9f4;
+	--color-fill-purple-secondary: #fcf8ff;
+	--color-fill-red-secondary: #fff2f4;
+	--color-fill-teal-secondary: #faffff;
+	--color-fill-yellow-secondary: #fffef2;
+	--color-figure-blue: #06c;
+	--color-figure-gray: #1d1d1f;
+	--color-figure-gray-secondary: #6e6e73;
+	--color-figure-gray-secondary-alt: #515154;
+	--color-figure-gray-tertiary: #86868b;
+	--color-figure-green: #008009;
+	--color-figure-light-blue: #4ca9ff;
+	--color-figure-light-gray: #696969;
+	--color-figure-orange: #bf4800;
+	--color-figure-pink: #b0b;
+	--color-figure-purple: #8c28c2;
+	--color-figure-red: #e30000;
+	--color-figure-teal: #007c78;
+	--color-figure-yellow: #936d00;
+	--color-highlight-green: #e4fee6;
+	--color-highlight-red: #f8dddd;
+	--color-tutorials-teal: #38a39c;
+	--color-aside-deprecated: var(--color-figure-orange);
+	--color-aside-deprecated-background: var(--color-fill-orange-secondary);
+	--color-aside-deprecated-border: var(--color-figure-orange);
+	--color-aside-experiment: var(--color-figure-purple);
+	--color-aside-experiment-background: var(--color-fill-purple-secondary);
+	--color-aside-experiment-border: var(--color-figure-purple);
+	--color-aside-important: var(--color-figure-yellow);
+	--color-aside-important-background: var(--color-fill-yellow-secondary);
+	--color-aside-important-border: var(--color-figure-yellow);
+	--color-aside-note: var(--color-figure-light-gray);
+	--color-aside-note-background: var(--color-fill-light-gray-secondary);
+	--color-aside-note-border: var(--color-figure-light-gray);
+	--color-aside-tip: var(--color-figure-teal);
+	--color-aside-tip-background: var(--color-fill-teal-secondary);
+	--color-aside-tip-border: var(--color-figure-teal);
+	--color-aside-warning: var(--color-figure-red);
+	--color-aside-warning-background: var(--color-fill-red-secondary);
+	--color-aside-warning-border: var(--color-figure-red);
+	--color-badge-beta: var(--color-figure-teal);
+	--color-badge-spi: var(--color-figure-pink);
+	--color-badge-dark-beta: #00c2bb;
+	--color-badge-dark-spi: #f14bf1;
+	--color-button-background-active: var(--color-fill-blue);
+	--color-button-background-hover: #0077ed;
+	--color-changes-added: var(--color-figure-green);
+	--color-changes-added-hover: var(--color-fill-green-secondary);
+	--color-changes-deprecated: var(--color-figure-orange);
+	--color-changes-deprecated-hover: rgba(191, 72, 0, 0.05);
+	--color-changes-modified: var(--color-figure-purple);
+	--color-changes-modified-hover: var(--color-fill-purple-secondary);
+	--color-changes-modified-previous-background: var(--color-fill);
+	--color-code-background: var(--color-fill-tertiary);
+	--color-code-collapsible-background: var(--color-fill-gray-quaternary);
+	--color-code-line-highlight: var(--color-fill-light-blue-secondary);
+	--color-code-line-highlight-border: var(--color-figure-light-blue);
+	--color-code-plain: #000;
+	--color-dropdown-border: var(--color-fill-gray-tertiary);
+	--color-eyebrow: inherit;
+	--color-grid: var(--color-fill-gray-tertiary);
+	--color-hero-eyebrow: inherit;
+	--color-nav-outlines: var(--color-fill-gray-tertiary);
+	--color-nav-dark-outlines: #424245;
+	--color-nav-dark-solid-background: #2d2d2d;
+	--color-not-found-input-background: var(--color-fill-secondary);
+	--color-not-found-input-border: var(--color-fill-gray-tertiary);
+	--color-step-caption: var(--color-fill-gray-tertiary);
+	--color-step-focused: var(--color-figure-light-blue);
+	--color-step-text: var(--color-figure-gray);
+	--color-svg-icon: #86868b;
+	--color-tabnav-item-border-color: var(--color-fill-gray-tertiary);
+	--color-tutorial-navbar-dropdown-border: var(--color-dropdown-border);
+	--color-tutorials-overview-background: radial-gradient(circle at center 70%, #242424 0%, #0c0c0c 100%);
+	--color-tutorials-overview-content: #f5f5f7;
+	--color-tutorials-overview-content-alt: #a1a1a6;
+	--color-tutorials-overview-eyebrow: #a1a1a6;
+	--color-tutorials-overview-icon: #a1a1a6;
+	--color-tutorials-overview-navigation-link-active: #f5f5f7;
+	--color-tutorials-overview-navigation-link-hover: #a1a1a6;
+	--color-card-accent: var(--color-figure-blue);
+	--color-navigator-item-hover: rgba(0, 113, 227, 0.2);
+	--color-type-icon-orange: #947100;
+	--color-type-icon-green: #090;
+	--color-type-icon-blue: #272ad8;
+	--color-type-icon-sky: #06c;
+	--color-type-icon-pink: #d82797;
+	--color-type-icon-teal: #509ca3;
+	--color-type-icon-purple: #bf6af7;
+	--color-standard-red: var(--color-type-icon-pink);
+	--color-standard-orange: #ff5a00;
+	--color-standard-yellow: #ff9f2c;
+	--color-standard-blue: var(--color-type-icon-sky);
+	--color-standard-green: var(--color-type-icon-teal);
+	--color-standard-purple: var(--color-type-icon-purple);
+	--color-standard-gray: #afafaf;
+}
+
+a {
+	font-weight: 500;
+	color: #646cff;
+	text-decoration: inherit;
+}
+a:hover {
+	color: #535bf2;
+}
+
+a {
+	font-weight: 500;
+	color: #646cff;
+	text-decoration: inherit;
+}
+a:hover {
+	color: #535bf2;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+}
+
+button {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: #1a1a1a;
+	cursor: pointer;
+	transition: border-color 0.25s;
+}
+button:hover {
+	border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+	outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+	padding: 2em;
+}
+
+#app {
+	width: 100%;
+	margin: 0 auto;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		color: #213547;
+		background-color: #ffffff;
+	}
+	a:hover {
+		color: #747bff;
+	}
+	button {
+		background-color: #f9f9f9;
+	}
+}

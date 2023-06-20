@@ -1,0 +1,47 @@
+[
+  {
+    "chapter": "第一章",
+    "title": "创建一个项目",
+    "desc": ["Create a new Xcode project that uses SwiftUI. Explore the canvas, previews, and the SwiftUI template code.", "To preview and interact with views from the canvas in Xcode, and to use all the latest features described throughout the tutorials, ensure your Mac is running macOS Monterey or later."],
+    "img": "https://docs-assets.developer.apple.com/published/1311cf8857f5c3be574e7af8bfd9afc4/010101@2x.png",
+    "content": [
+      {
+        "p": "Open Xcode and either click “Create a new Xcode project” in Xcode’s startup window, or choose File > New > Project.",
+        "img": ""
+      },
+      {
+        "p": "In the template selector, select iOS as the platform, select the App template, and then click Next.",
+        "img": ""
+      },
+      {
+        "p": "Enter “Landmarks” as the product name, select “SwiftUI” for the interface and “Swift” for the language, and click Next. Choose a location to save the Landmarks project on your Mac.",
+        "img": ""
+      },
+      {
+        "p": "In the Project navigator, select LandmarksApp.swift.",
+        "desc": "An app that uses the SwiftUI app life cycle has a structure that conforms to the App protocol. The structure’s body property returns one or more scenes, which in turn provide content for display. The @main attribute identifies the app’s entry point.",
+        "img": ""
+      },
+      {
+        "p": "In the Project navigator, select ContentView.swift.",
+        "desc": "By default, SwiftUI view files declare two structures. The first structure conforms to the View protocol and describes the view’s content and layout. The second structure declares a preview for that view.",
+        "img": ""
+      },
+      {
+        "p": "",
+        "desc": "",
+        "img": ""
+      },
+      {
+        "p": "",
+        "desc": "",
+        "img": ""
+      },
+      {
+        "p": "",
+        "desc": "",
+        "img": ""
+      }
+    ]
+  }
+]
